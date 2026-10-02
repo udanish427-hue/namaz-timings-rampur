@@ -2,8 +2,10 @@ name: namaz_timings
 description: A new Flutter project.
 publish_to: 'none'
 version: 1.0.0+1
+
 environment:
   sdk: ">=3.0.0 <4.0.0"
+
 dependencies:
   flutter:
     sdk: flutter
@@ -92,6 +94,7 @@ dependencies:
 
 dependency_overrides:
   collection: ^1.18.0
+  webview_flutter: ^4.5.0
   webview_flutter_wkwebview: ^3.14.0
   webview_flutter_platform_interface: ^2.10.0
   webview_flutter_android: ^3.14.0
@@ -115,4 +118,3 @@ flutter:
     - assets/rive_animations/
     - assets/pdfs/
     - assets/jsons/
-
